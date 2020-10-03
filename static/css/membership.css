@@ -1,24 +1,41 @@
-@media (max-width: 576px) {
-  .head-zi-image {height:486px}
+@media (max-width: 575px) {
+  .head-zi-image {
+    height: 486px;
+  }
 }
-@media (min-width: 577px) and (max-width: 768px) {
-  .head-zi-image {height:510px}
+@media (min-width: 576px) and (max-width: 767px) {
+  .head-zi-image {
+    height: 510px;
+  }
 }
-@media (min-width: 769px) and (max-width: 992px) {
-  .head-zi-image {height:450px}
+@media (min-width: 768px) and (max-width: 991px) {
+  .head-zi-image {
+    height: 450px;
+  }
 }
-@media (min-width: 993px) {
-  .head-zi-image {height:730px}
+@media (min-width: 992px) {
+  .head-zi-image {
+    height: 730px;
+  }
 }
 
 .head-zi-image {
   overflow: hidden;
 }
-.head-hanzi {font-family: 'Ma Shan Zheng', cursive; font-size:150px;}
+.head-hanzi {
+  font-family: 'Ma Shan Zheng', cursive;
+  font-size: 150px;
+}
 
-.component-hanzi {font-family: 'Ma Shan Zheng', cursive; font-size:50px;}
+.component-hanzi {
+  font-family: 'Ma Shan Zheng', cursive;
+  font-size: 50px;
+}
 
-.vocab-hanzi {font-family: 'Ma Shan Zheng', cursive; font-size:80px;}
+.vocab-hanzi {
+  font-family: 'Ma Shan Zheng', cursive;
+  font-size: 80px;
+}
 
 .badge-hsk-1 {
   color: white;
