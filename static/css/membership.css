@@ -1,22 +1,5 @@
-@media (max-width: 575px) {
-  .head-zi-image {
-    height: 486px;
-  }
-}
-@media (min-width: 576px) and (max-width: 767px) {
-  .head-zi-image {
-    height: 510px;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .head-zi-image {
-    height: 450px;
-  }
-}
-@media (min-width: 992px) {
-  .head-zi-image {
-    height: 730px;
-  }
+.overflow-x-auto {
+  overflow-x: auto;
 }
 
 .head-zi-image {
@@ -37,7 +20,7 @@
   font-size: 80px;
 }
 
-.badge-hsk-1 {
+.badge-hsk-1, .badge-hsk-1:focus {
   color: white;
   background-color: #f8b51e;
 }
@@ -45,7 +28,7 @@
   color: #f8b51e;
   font-weight: bold;
 }
-.badge-hsk-2 {
+.badge-hsk-2, .badge-hsk-2:focus {
   color: white;
   background-color: #217e96;
 }
@@ -53,7 +36,7 @@
   color: #217e96;
   font-weight: bold;
 }
-.badge-hsk-3 {
+.badge-hsk-3, .badge-hsk-3:focus {
   color: white;
   background-color: #ed6d05;
 }
@@ -61,7 +44,7 @@
   color: #ed6d05;
   font-weight: bold;
 }
-.badge-hsk-4 {
+.badge-hsk-4, .badge-hsk-4:focus {
   color: white;
   background-color: #bb0f1a;
 }
@@ -69,7 +52,7 @@
   color: #bb0f1a;
   font-weight: bold;
 }
-.badge-hsk-5 {
+.badge-hsk-5, .badge-hsk-5:focus {
   color: white;
   background-color: #1a3f76;
 }
@@ -77,7 +60,7 @@
   color: #1a3f76;
   font-weight: bold;
 }
-.badge-hsk-6 {
+.badge-hsk-6, .badge-hsk-6:focus {
   color: white;
   background-color: #693668;
 }
@@ -102,4 +85,31 @@
   text-align: center;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
+}
+
+@media (max-width: 575px) {
+  .head-zi-image {
+    height: 486px;
+  }
+  .component-hanzi {
+    font-size: 30px;
+  }
+  .vocab-hanzi {
+    font-size: 36px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .head-zi-image {
+    height: 510px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .head-zi-image {
+    height: 450px;
+  }
+}
+@media (min-width: 992px) {
+  .head-zi-image {
+    height: 730px;
+  }
 }
