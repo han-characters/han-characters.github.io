@@ -17,18 +17,20 @@
 
 .vocab-hanzi {
   font-family: 'Ma Shan Zheng', cursive;
-  font-size: 80px;
+  font-size: 60px;
 }
 
-.badge-hsk-1, .badge-hsk-1:focus {
+.badge-hsk-1,
+.badge-hsk-1:focus {
   color: white;
   background-color: #f8b51e;
 }
-.badge-hsk-1-outline{
+.badge-hsk-1-outline {
   color: #f8b51e;
   font-weight: bold;
 }
-.badge-hsk-2, .badge-hsk-2:focus {
+.badge-hsk-2,
+.badge-hsk-2:focus {
   color: white;
   background-color: #217e96;
 }
@@ -36,7 +38,8 @@
   color: #217e96;
   font-weight: bold;
 }
-.badge-hsk-3, .badge-hsk-3:focus {
+.badge-hsk-3,
+.badge-hsk-3:focus {
   color: white;
   background-color: #ed6d05;
 }
@@ -44,7 +47,8 @@
   color: #ed6d05;
   font-weight: bold;
 }
-.badge-hsk-4, .badge-hsk-4:focus {
+.badge-hsk-4,
+.badge-hsk-4:focus {
   color: white;
   background-color: #bb0f1a;
 }
@@ -52,7 +56,8 @@
   color: #bb0f1a;
   font-weight: bold;
 }
-.badge-hsk-5, .badge-hsk-5:focus {
+.badge-hsk-5,
+.badge-hsk-5:focus {
   color: white;
   background-color: #1a3f76;
 }
@@ -60,7 +65,8 @@
   color: #1a3f76;
   font-weight: bold;
 }
-.badge-hsk-6, .badge-hsk-6:focus {
+.badge-hsk-6,
+.badge-hsk-6:focus {
   color: white;
   background-color: #693668;
 }
